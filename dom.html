@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>dom</title>
+</head>
+<body>
+<h1>Get Element</h1>
+<p>This is the Message</p>
+<h2>tech</h2>
+<p id="second">tech section</p>
+<script type="text/javascript">
+    var paragraphs = document.getElementById("p");
+    alert("content in the second paragraph is" + paragraphs[1].innerHTML);
+    document.getElementById("second").innerHTML= "the original message has changed.";
+</script>
+</body>
+</html>
